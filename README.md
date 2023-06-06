@@ -3,7 +3,6 @@ this is a modificated code from https://github.com/nickson-jose/openlane_build_s
 This script builds openlane and all its dependencies on an Ubuntu (only) System.
 The scripts in this repo are:
  - openlane_script.sh
- - openlane_script_wo_depends.sh
  
 **openlane_script.sh** is a standalone script where it builds openlane (latest version) and all its dependencies; while **openlane_script_wo_depends.sh** works in conjunction with [vsdflow script](https://github.com/kunalg123/vsdflow) and builds only openlane (hence lesser run-time).
 
@@ -22,48 +21,8 @@ The scripts in this repo are:
 
       - **For standalone build**
        
-        - `chmod 775 openlane_script.sh`
-        - `./openlane_script.sh`
-     
-      - **For build in conjunction with vsdflow**
-       
-        -  Copy the `openlane_script_wo_depends.sh` to vsdflow folder.
-        - `chmod 775  openlane_script_wo_depends.sh`
-        - `./openlane_script_wo_depends.sh`
-      
-5. This script would create following directory structure:
-
-- **For build in conjunction with vsdflow**
-```bash 
-vsdflow/
-  └── work
-     └── tools
-      ├── cmake-3.13.0
-      ├── cmake-3.13.0.tar.gz
-      ├── graywolf
-      ├── magic-8.3.50
-      ├── magic-8.3.50.tgz
-      ├── netgen-1.5.134
-      ├── netgen-1.5.134.tgz
-      ├── openlane_working_dir
-      ├── OpenSTA
-      ├── OpenTimer
-      ├── qflow-1.3.17
-      ├── qflow-1.3.17.tgz
-      ├── qrouter-1.4.59
-      ├── qrouter-1.4.59.tgz
-
-```
-- **For standalone build**
- ```bash  
- Desktop/
- ...
-  └── work
-    └── tools 
-        └── openlane_working_dir
-         |__ Openlane
-                       
-```              
+        - `chmod 777 openlane_script.sh`
+        - `./openlane_script.sh`            
  
 # STEPS TO RUN OPENLANE
 
