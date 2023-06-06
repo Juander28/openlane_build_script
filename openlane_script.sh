@@ -13,8 +13,6 @@ echo
 ORIGIN_LOC=$(pwd)
 sudo apt-get update
 sudo apt-get -y upgrade
-mkdir -p work/tools
-cd work/tools
 sudo apt install -y build-essential python3 python3-venv python3-pip
 echo
 echo "=================================="
@@ -52,15 +50,11 @@ echo "=================================="
 echo "----BUILDING OPENLANE----"
 echo "=================================="
 echo
-mkdir openlane_working_dir
-cd openlane_working_dir
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane/
 make
 make test
 
-cd $ORIGIN_LOC
-chown -R $user_name:$group_name work
 echo
 echo "######CONGRATULATIONS YOU ARE DONE!!########"
 echo
