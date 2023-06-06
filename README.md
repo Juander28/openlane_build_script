@@ -1,3 +1,4 @@
+this is a modificated code from https://github.com/nickson-jose/openlane_build_script.git
 # openlane_build_script
 This script builds openlane and all its dependencies on an Ubuntu (only) System.
 The scripts in this repo are:
