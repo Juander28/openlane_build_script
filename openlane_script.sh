@@ -13,6 +13,8 @@ echo
 ORIGIN_LOC=$(pwd)
 sudo apt-get update
 sudo apt-get -y upgrade
+cd
+cd APPS
 sudo apt install -y build-essential python3 python3-venv python3-pip
 echo
 echo "=================================="
@@ -52,8 +54,7 @@ echo "=================================="
 echo
 git clone https://github.com/The-OpenROAD-Project/OpenLane.git
 cd OpenLane/
-make
-make test
+
 
 echo
 echo "######CONGRATULATIONS YOU ARE DONE!!########"
