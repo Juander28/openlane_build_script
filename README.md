@@ -17,16 +17,16 @@ The scriptexs in this repo are:
 1. `git clone https://github.com/nickson-jose/openlane_build_script`
 2. `sudo -i` #switch to root user (or have root user password ready).
 3.  Change directory to where openlane_build_script folder was cloned. `cd /path/to/openlane_build_script`
-4.  Execute the script as below:
-chmod 777 openlane_script.sh`
-./openlane_script.sh`
+4.  Execute the script as below:\
+       `chmod 777 openlane_script.sh`\
+       `./openlane_script.sh`
 
 6.  Restart the computer.
-7.  Excute the :
-        - `git clone https://github.com/The-OpenROAD-Project/OpenLane.git`
-        - ` cd OpenLane/`
-        - ` make`
-        - ` make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
+7.  Execute the script as below:\
+        `git clone https://github.com/The-OpenROAD-Project/OpenLane.git`\
+        ` cd OpenLane/`\
+        ` make`\
+        ` make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed`
  
 # STEPS TO RUN OPENLANE
 
