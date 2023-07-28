@@ -1,7 +1,7 @@
 this is a modificated code from https://github.com/nickson-jose/openlane_build_script.git
 # openlane_build_script
 This script builds openlane and all its dependencies on an Ubuntu (only) System.
-The scripts in this repo are:
+The scriptexs in this repo are:
  - openlane_script.sh
  
 **openlane_script.sh** is a standalone script where it builds openlane (latest version) and all its dependencies\
@@ -16,13 +16,19 @@ The scripts in this repo are:
 
 1. `git clone https://github.com/nickson-jose/openlane_build_script`
 2. `sudo -i` #switch to root user (or have root user password ready).
-3. Change directory to where openlane_build_script folder was cloned. `cd /path/to/openlane_build_script`
-4. Execute the script as below:
-
-      - **For standalone build**
+3.  Change directory to where openlane_build_script folder was cloned. `cd /path/to/openlane_build_script`
+4.  Execute the script as below:
+         - **For standalone build**
        
         - `chmod 777 openlane_script.sh`
-        - `./openlane_script.sh`            
+        - `./openlane_script.sh`
+        -  
+6.  Restart the computer.
+7.  Excute the :
+        - `git clone https://github.com/The-OpenROAD-Project/OpenLane.git`
+        - ` cd OpenLane/`
+        - ` make`
+        - ` make test # This a ~5 minute test that verifies that the flow and the pdk were properly installed
  
 # STEPS TO RUN OPENLANE
 
