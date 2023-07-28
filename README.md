@@ -4,7 +4,7 @@ This script builds openlane and all its dependencies on an Ubuntu (only) System.
 The scripts in this repo are:
  - openlane_script.sh
  
-**openlane_script.sh** is a standalone script where it builds openlane (latest version) and all its dependencies; while **openlane_script_wo_depends.sh** works in conjunction with [vsdflow script](https://github.com/kunalg123/vsdflow) and builds only openlane (hence lesser run-time).
+**openlane_script.sh** is a standalone script where it builds openlane (latest version) and all its dependencies\
 
 
 # Contents
