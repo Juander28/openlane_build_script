@@ -18,11 +18,9 @@ The scriptexs in this repo are:
 2. `sudo -i` #switch to root user (or have root user password ready).
 3.  Change directory to where openlane_build_script folder was cloned. `cd /path/to/openlane_build_script`
 4.  Execute the script as below:
-         - **For standalone build**
-       
-        - `chmod 777 openlane_script.sh`
-        - `./openlane_script.sh`
-        -  
+chmod 777 openlane_script.sh`
+./openlane_script.sh`
+
 6.  Restart the computer.
 7.  Excute the :
         - `git clone https://github.com/The-OpenROAD-Project/OpenLane.git`
