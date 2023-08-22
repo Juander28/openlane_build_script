@@ -14,7 +14,7 @@ The scriptexs in this repo are:
  
 # STEPS TO BUILD OPENLANE
 
-1. `git clone https://github.com/nickson-jose/openlane_build_script`
+1. `git clone https://github.com/Juander28/openlane_build_script`
 2. `sudo -i` #switch to root user (or have root user password ready).
 3.  Change directory to where openlane_build_script folder was cloned. `cd /path/to/openlane_build_script`
 4.  Execute the script as below:\
